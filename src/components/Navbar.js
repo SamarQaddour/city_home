@@ -17,7 +17,7 @@ const Navbar = () => {
                                <div className='css-1d3bbye'>
                                    <div className='css-u3q3zq'>
                                    </div>
-                                       <div className='css-1q2jn5f'>
+                                       <div className='css-1q2jn5f navbar-expand'>
                                            <div className='topbar_email'>
                                                <img src={msg} alt='not found'/>
                                                <a href="/#">info@example.com</a>
