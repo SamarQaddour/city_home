@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+
 import '../style.css';
 import  msg from '../img/mail.png'
 import user from '../img/user.png'
@@ -7,7 +7,6 @@ import ksa from '../img/ksa.png'
 import usa from '../img/usa.png'
 import call from '../img/call.png'
 const Navbar = () => {
-    const [nav,setNav]=useState(false)
     return(
         <div className="app-template__header">
             <div className="styles__Styles-sc-4zrfhp-0 laztMg">
@@ -21,15 +20,15 @@ const Navbar = () => {
                                        <div className='css-1q2jn5f'>
                                            <div className='topbar_email'>
                                                <img src={msg} alt='not found'/>
-                                               <a>info@example.com</a>
+                                               <a href="/#">info@example.com</a>
                                            </div>
                                        </div>
                                    <div className='css-1abayas'>
                                         <div className='topbar_login_section'>
                                             <img src={user} alt='' />
-                                            <a href='#'>Login</a>
+                                            <a href='/#'>Login</a>
                                              <span> / </span>
-                                            <a href='#'>Register </a>
+                                            <a href='/#'>Register </a>
                                         </div>
                                    </div>
                                </div>
@@ -58,7 +57,7 @@ const Navbar = () => {
                                                                 <li className="false"><a className="false" href="/project">Projects</a>
                                                                </li>
                                                                <li className="false">
-                                                                   <a className='false' herf="/about_us">
+                                                                   <a className='false' href="/about_us">
                                                                    <div className='dropdown'>
                                                                        <button className='dropbtn'>
                                                                            AboutAs
@@ -66,32 +65,32 @@ const Navbar = () => {
                                                                                <path d="m7 10 5 5 5-5z"></path>
                                                                            </svg>
                                                                        </button>
-                                                                       <div class='dropdown-content'>
-                                                                           <a href="#">About As</a>
-                                                                           <a href="#">Contact AS</a>
-                                                                           <a href="#">FAQ</a>
+                                                                       <div className='dropdown-content'>
+                                                                           <a href="/#">About As</a>
+                                                                           <a href="/#">Contact AS</a>
+                                                                           <a href="/#">FAQ</a>
                                                                        </div>
                                                                    </div></a>
                                                                </li>
                                                                   <li className="false">
-                                                                   <a className='false' herf="/about_us">
+                                                                   <a className='false' href="/about_us">
                                                                    <div className='dropdown'>
                                                                        <button className='dropbtn'>
                                                                            <img src={usa} alt="" style={{width:"30",height:"30px"}} />
                                                                            <svg className="MuiSvgIcon-root MuiSvgIcon-fontSizeLarge menuArrow css-6flbmm" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="ArrowDropDownIcon">
                                                                                <path d="m7 10 5 5 5-5z"></path>
-                                                                           </svg>
+                                                                          </svg>
                                                                        </button>
-                                                                       <div class='dropdown-content_flag'>
-                                                                           <a href="#">  <img src={usa} alt=""  style={{width:"30",height:"30px"}} /></a>
-                                                                           <a href="#">  <img src={ksa} alt=""  style={{width:"30",height:"30px"}} /></a>
+                                                                       <div className='dropdown-content_flag'>
+                                                                           <a href="/#">  <img src={usa} alt=""  style={{width:"30",height:"30px"}} /></a>
+                                                                           <a href="/#">  <img src={ksa} alt=""  style={{width:"30",height:"30px"}} /></a>
                                                                        </div>
                                                                    </div></a>
                                                                </li>
                                                         <li className='false'>
-                                                         <a className='false'>
+                                                         <a className='false' href='/'>
                                                        <div className="callUs">
-                                                              <a href="#" className="animation-rotate-border btn-call">
+                                                              <a href="/#" className="animation-rotate-border btn-call">
                                                                <img src={call} alt="call" />
                                                            </a>
                                                        </div>
@@ -108,7 +107,7 @@ const Navbar = () => {
                                         </div>
                                         <ul>
                                             <li className="false">
-                                                <a className='false' herf="/about_us">
+                                                <a className='false' href="/about_us">
                                                     <div className='dropdown'>
                                                         <button className='dropbtn'>
                                                             <img src={usa} alt=""
@@ -121,18 +120,18 @@ const Navbar = () => {
                                                             </svg>
                                                         </button>
                                                         <div className='dropdown-content_flag'>
-                                                            <a href="#"> <img src={usa} alt=""
+                                                            <a href="/#"> <img src={usa} alt=""
                                                                               style={{width: "30", height: "30px"}}/></a>
-                                                            <a href="#"> <img src={ksa} alt=""
+                                                            <a href="/#"> <img src={ksa} alt=""
                                                                               style={{width: "30", height: "30px"}}/></a>
                                                         </div>
                                                     </div>
                                                 </a>
                                             </li>
                                             <li className='false'>
-                                                <a className='false'>
+                                                <a className='false' href='/'>
                                                     <div className="callUs">
-                                                        <a href="#" className="animation-rotate-border btn-call">
+                                                        <a href="/#" className="animation-rotate-border btn-call">
                                                             <img src={call} alt="call"/>
                                                         </a>
                                                     </div>

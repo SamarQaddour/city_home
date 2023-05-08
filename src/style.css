@@ -55,59 +55,12 @@ html {
   -ms-flex-direction: row;
   flex-direction: row;
 }
-@media (min-width: 1200px) {
-  .css-u3q3zq {
-    -webkit-flex-basis: 33.333333%;
-    -ms-flex-preferred-size: 33.333333%;
-    flex-basis: 33.333333%;
-    -webkit-topbar_emailbox-flex: 0;
-    -webkit-flex-grow: 0;
-    -ms-flex-positive: 0;
-    flex-grow: 0;
-    max-width: 33.333333%;
-  }
-}
-@media (min-width: 1200px) {
-  .css-u3q3zq {
-    -webkit-flex-basis: 33.333333%;
-    -ms-flex-preferred-size: 33.333333%;
-    flex-basis: 33.333333%;
-    -webkit-box-flex: 0;
-    -webkit-flex-grow: 0;
-    -ms-flex-positive: 0;
-    flex-grow: 0;
-    max-width: 33.333333%;
-  }
-}
-@media (min-width: 1200px) {
-  .css-1q2jn5f {
-    -webkit-flex-basis: 41.666667%;
-    -ms-flex-preferred-size: 41.666667%;
-    flex-basis: 41.666667%;
-    -webkit-box-flex: 0;
-    -webkit-flex-grow: 0;
-    -ms-flex-positive: 0;
-    flex-grow: 0;
-    max-width: 41.666667%;
-  }
-}
-@media (min-width: 900px) {
-  .css-1q2jn5f {
-    -webkit-flex-basis: 50%;
-    -ms-flex-preferred-size: 50%;
-    flex-basis: 50%;
-    -webkit-box-flex: 0;
-    -webkit-flex-grow: 0;
-    -ms-flex-positive: 0;
-    flex-grow: 0;
-    max-width: 50%;
-  }
-}
+
 .topbar_email {
   display: flex;
   -webkit-box-align: center;
   align-items: center;
-  margin-left: -170%;
+  margin-left: -70%;
   padding: 1rem;
 
 }
@@ -130,33 +83,8 @@ html {
 .css-1abayas a:hover{
   color: var(--color-secondary);
 }
-@media (min-width: 1200px) {
-  .css-1abayas {
-    -webkit-flex-basis: 25%;
-    -ms-flex-preferred-size: 25%;
-    flex-basis: 25%;
-    -webkit-box-flex: 0;
-    -webkit-flex-grow: 0;
-    -ms-flex-positive: 0;
-    flex-grow: 0;
-    margin-left: 290%;
-    margin-top: -9%;
-  }
-  }
-@media (min-width: 900px) {
-  .css-1abayas {
-    -webkit-flex-basis: 50%;
-    -ms-flex-preferred-size: 50%;
-    flex-basis: 50%;
-    -webkit-box-flex: 0;
-    -webkit-flex-grow: 0;
-    -ms-flex-positive: 0;
-    flex-grow: 0;
-    max-width: 50%;
-    margin-top: -10%;
-    margin-left: 220%;
-  }
-}
+
+
 .topbar_login_section {
   display: flex;
   -webkit-box-align: center;
